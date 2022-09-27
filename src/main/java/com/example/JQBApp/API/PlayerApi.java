@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Base64;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("api")
 public class PlayerApi {

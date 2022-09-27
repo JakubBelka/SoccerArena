@@ -11,6 +11,7 @@ import com.example.JQBApp.DAO.Entity.Game;
 import javax.websocket.server.PathParam;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class GameApi {
